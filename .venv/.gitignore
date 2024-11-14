@@ -1,0 +1,29 @@
+*# Entorno virtual
+.venv/
+
+# Archivos de bases de datos locales
+*.sqlite
+*.db
+
+# Archivos temporales
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos del sistema operativo
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Archivos de configuración de IDEs/editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de configuración de Flask (si aplica)
+instance/
+
+# Otras configuraciones que no quieras subir
+.env  # Si usas archivos de entorno
